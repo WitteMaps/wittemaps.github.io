@@ -108,6 +108,7 @@ a:hover {
 
 .navbar-brand img {
     width: 40%;
+    vertical-align: middle;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -122,6 +123,8 @@ a:hover {
 
 .navbar-menu-button{
     margin: 0px;
+    border: none;
+    vertical-align: middle;
 }
 
 .current-page {
