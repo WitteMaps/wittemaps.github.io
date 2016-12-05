@@ -1,18 +1,35 @@
-@charset "UTF-8"
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure {
-    margin-bottom: 15px;
+body, p, h1, h2, h3, h4, h5 {
+    font: 400 21px/1.5 "Dosis Regular", Dosis, sans-serif;
+    color: #333333;
 }
 
 body {
-    font: 400 21px/1.5 "Dosis Regular", Dosis, sans-serif;
-    color: #333333;
-    padding: 80px;
+    padding-top: 70px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Dosis Semibold";
+}
+
+h2 {
+    font-size: 36px !important;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 21px
 }
 
 .glyphicon, .glyphicon-menu-hamburger {
@@ -23,41 +40,20 @@ body {
     color: #fff
 }
 
-::selection { background: #33cc33; }
-
-::-moz-selection { background: #33cc33; }
-
 .jumbotron{
-    padding-top: 30px;
-    padding-bottom: 30px;
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+.navbar{
+	padding-left:0%;
+	padding-top:0px;
 }
 
 .footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
-a {
-    color: #6633cc;
-    text-decoration: none;
-}
-
-a:link {
-    color: #6633cc;
-}
-
-a:visited {
-    color: #6633cc;
-}
-
-a:hover {
-    color: #33cc33 !important;
-    text-decoration: underline !important;
-}
-
-ul, ol { margin-left: 30px; }
-
-li > ul, li > ol { margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
@@ -86,13 +82,22 @@ p {
     font-size: 21px;
 }
 
-figure > img {
-    display: block;
+a {
+    color: #6633cc;
+    text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    /*vertical-align: middle;*/
+a:link {
+    color: #6633cc;
+}
+
+a:visited {
+    color: #6633cc;
+}
+
+a:hover {
+    color: #33cc33 !important;
+    text-decoration: underline !important;
 }
 
 .site-header {
@@ -102,22 +107,6 @@ img {
 .navbar-brand img {
     width: 40%;
 }
-
-@media screen and (max-width: 992px) {
-    .navbar-brand {
-        width: 350px;
-    }
-  .page-content {
-      padding-top: 10%;
-      }
-  }
-@media screen and (max-width: 650px) {
-    .navbar-brand {
-        width: 70% !important;
-    }
-  .page-content { padding-top: 20%;
-      }
-  }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff !important;
@@ -135,39 +124,12 @@ img {
     background-color: #33cc33;
 }
 
-.site-nav { float: right; }
-.site-nav .menu-icon { display: none; }
-.site-nav .navbar-menu-button { float: right; }
-.site-nav .page-link { color: #111; }
-.site-nav .page-link:not(:last-child) { margin-right: 20px; }
-.site-nav .trigger { clear: both; display: none; }
-.site-nav:hover .trigger { display: block; padding-bottom: 5px; }
-.site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
-.site-nav .page-link:not(:last-child) { margin-right: 0; }
-
-.page-content {
-    padding: 60px 0 7.5px;
-}
-
-.wrapper {
-    max-width: -webkit-calc(1200px - (30px * 2));
-    max-width: calc(1200px - (30px * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-@media screen and (max-width: 1000px) { .wrapper { max-width: -webkit-calc(1000px - (30px)); max-width: calc(1000px - (30px)); padding-right: 15px; padding-left: 15px; }
-}
-
-figure { background: #666666;
-    width: 250px;
-    height: auto;
-}
-
 .portfolio-thumbnail {
     padding-bottom: 30px;
+}
+
+.img{
+    width: 100%;
 }
 
 .img-hover img {
