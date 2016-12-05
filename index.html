@@ -2,48 +2,81 @@
 <html lang="en">
 
   <head>
-      <meta charset=utf-8>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="img/favicon.ico">
+      <title>Shelley Witte</title>
+
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
       <link rel="stylesheet" href="css/style.css">
-      <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
+
 
   <body>
       <!-- navbar starts here -->
-      <nav class="navbar navbar-default navbar-fixed-top main-navbar site-header">
-          <div class="container-fluid">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                        <span class="menu">Menu</span>
-                  </button>
-                  <a class="navbar-brand" href="index.html">Shelley Witte</a>
+      <header>
+          <nav class="navbar site-nav navbar-default navbar-fixed-top main-navbar site-header">
+              <div class="container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            <span class="menu">Menu</span>
+                      </button>
+                      <a class="navbar-brand" href="index.html"> <img src="img/witte_brand.png" alt="brand" style="float: left; margin-top: -1.5%"></a>
+                  </div>
+                  <div id="myNav" class="navbar-collapse collapse ">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li><a href="Shelley_Witte_resume_2016.pdf" target="_blank">Resume<span class="sr-only"></span></a></li>
+                          <li><a href="work.html">Work</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
               </div>
-              <div id="myNav" class="navbar-collapse collapse ">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li><a href="about.html">About<span class="sr-only"></span></a></li>
-                      <li class="dropdown">
-                          <a href="work.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                              <li><a href="work.html">Cartography</a></li>
-                              <li><a href="work.html">GIS</a></li>
-                              <li><a href="work.html">Education</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="contact.html">Contact</a></li>
-                  </ul>
+          </nav>
+
+          <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+          <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      </header>
+
+      <div class= "jumbotron">
+          <div class="container">
+              <h1>Shelley Witte</h1>
+              <h2>Cartography  |  GIS  |  Education</h2>
+              <br>
+              <h3>Hello, I'm Shelley -- a GIS certificate student at the University of Wisconsin-Madison. I have spent the last decade educating others about the wonders of astronomy and the Earth sciences. Now I'm interested in focusing on social justice through the vehicles of GIS and cartography.</h3>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <h2>Cartography</h2><img src="img/map-icon.png" class="img-responsive center-block" alt="GIS">
+                  <p>As a highly visual learner and an educator, I've been facinated by a map's ability to convey a wealth of information in a concise manner. Cartographers are educators, scientists, and artists. I fully embrace the practice of weaving together science and art through geovisualization and beautiful design.</p>
+                  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <h2>GIS</h2><img src="img/GIS.png">
+                  <p>You can't solve problems unless you are aware of and understand their history and complexities. I love how GIS can expose, evaluate, and solve complex issues. My professional goal is to help uncover social and environmental injustices and communicate them to wider audiences.  </p>
+                  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <h2>Education</h2>
+                  <p>Teaching will always be one of my passions. My 8 years in museum and classroom education have given me invaluable experiences that influence my work in cartography and GIS. I hope to continue to utilize my education background in my professional life. </p>
+                  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
               </div>
           </div>
-      </nav>
 
-
-      <!-- jumbotron starts here -->
-      <div class="jumbotron">
-          <p>Jumbotron with carousel images</p>
-      </div>
+          <!-- <footer class="site-footer">
+              <div class="wrapper">
+                  <div class"footer-col-wrapper">
+                          <img class="img-responsive" src="img/contact_footer.png" alt="metro">
+                      </div>
+                  </div>
+              </div>
+          </footer> -->
 
 
 
