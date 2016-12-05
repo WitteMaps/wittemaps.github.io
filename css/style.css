@@ -37,7 +37,7 @@ p {
 }
 
 .menu {
-    color: #fff
+    color: #fff;
 }
 
 .jumbotron{
@@ -118,6 +118,10 @@ a:hover {
     color: #333333 !important;
     text-decoration: none !important;
     background-color: #33cc33 !important;
+}
+
+.navbar-menu-button{
+    margin: 0px;
 }
 
 .current-page {
