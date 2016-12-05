@@ -32,6 +32,11 @@ body {
     padding-bottom: 30px;
 }
 
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 a {
     color: #6633cc;
     text-decoration: none;
@@ -159,6 +164,10 @@ img {
 figure { background: #666666;
     width: 250px;
     height: auto;
+}
+
+.portfolio-thumbnail {
+    padding-bottom: 30px;
 }
 
 .img-hover img {
