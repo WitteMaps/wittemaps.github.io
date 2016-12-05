@@ -41,8 +41,8 @@ p {
 }
 
 .jumbotron{
-	padding-top: 5px;
-	padding-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 20px;
 }
 
 .navbar{
@@ -127,6 +127,8 @@ a:hover {
 .portfolio-thumbnail {
     padding-bottom: 30px;
 }
+
+
 
 .img{
     width: 100%;
