@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 60px;
-    font-family: "Dosis Semibold";
+    font-weight: 600;
 }
 
 h2 {
@@ -31,6 +31,7 @@ h5 {
 p {
     font-size: 21px
 }
+
 
 .glyphicon, .glyphicon-menu-hamburger {
     color: #fff
