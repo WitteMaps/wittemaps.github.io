@@ -10,16 +10,18 @@
 
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
       <!-- navbar starts here -->
       <header>
-          <nav class="navbar site-nav navbar-default navbar-fixed-top main-navbar site-header">
+          <nav class="navbar site-nav navbar-default navbar-fixed-top site-header">
               <div class="container">
                   <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav" aria-expanded="false" aria-controls="navbar">
+                      <button type="button" class="navbar-toggle navbar-menu-button" data-toggle="collapse" data-target="#myNav" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="glyphicon glyphicon-menu-hamburger"></span>
                             <span class="menu">Menu</span>
@@ -29,22 +31,121 @@
                   <div id="myNav" class="navbar-collapse collapse ">
                       <ul class="nav navbar-nav navbar-right">
                           <li><a class="current-page" href="resume.html">Resume</a></li>
-                          <li class="dropdown">
-                              <a href="work.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="work.html">Cartography</a></li>
-                                  <li><a href="work.html">GIS</a></li>
-                                  <li><a href="work.html">Education</a></li>
-                              </ul>
-                          </li>
+                          <li><a href="work.html">Work</a></li>
                           <li><a href="contact.html">Contact</a></li>
                       </ul>
                   </div>
               </div>
           </nav>
+
           <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
           <script type="text/javascript" src="js/bootstrap.min.js"></script>
       </header>
+
+      <div class="container">
+
+          <div class= "row resume-link">
+              <div class="col-sm-12">
+                  <a href="Shelley_Witte_resume_Mar2017.pdf" style="float:right;"><strong>PDF of my resumé</strong></a>
+              </div>
+          </div>
+
+
+          <div class= "row resume-section">
+              <h2 class="resume-title" style="color:#33cc33;"><strong>Technical Skills</strong></h3>
+              <div class="col-sm-12">
+                  <h3>Cartography and GIS</h3>
+                  <p> Adobe Illustrator and Photoshop, ArcGIS, QGIS, GeoDa, R, Blender, CartoCSS, MapboxStudio, Microsoft Office</p>
+              </div>
+              <div class="col-sm-12">
+                  <h3>Programming</h3>
+                  <p> HTML/CSS, JavaScript:  D3, jQuery, and Leaflet, Python </p>
+              </div>
+          </div>
+
+          <div class="row resume-section">
+              <h2 class="resume-title" style="color:#33cc33;"><strong>Work Experience</strong></h2>
+              <div class="col-md-12">
+                  <h4>Applied Population Lab</h4>
+                  <h6><img src="img/GIS.png" alt="GIS" style="max-width:25px; height:auto"> <img src="img/map_graphic.png" alt="Map" style="max-width:35px; height:auto"> Student Intern | <strong>October 2016 &mdash; Present</strong> | Madison, WI</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>Chancellor's Scholarship and Powers-Knapp Scholarship Programs</h4>
+                  <h6> Student Office Assistant | <strong>October 2016 &mdash; Present</strong> | Madison, WI</h6>
+                  <p>The Chancellor's Scholarship and Powers-Knapp Scholarship Programs are </p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>University of Wisconsin Forest Landscape Ecology Lab</h4>
+                  <h6><img src="img/GIS.png" alt="GIS" style="max-width:25px; height:auto"> <img src="img/map_graphic.png" alt="Map" style="max-width:35px; height:auto"> Student Digitzer | <strong>November 2015 &mdash; Present</strong> | Madison, Wisconsin</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>Madison East High School</h4>
+                  <h6><img src="img/telescope.png" alt="Telescope" style="max-width:30px; height:auto"> Earth Science Teacher | <strong>August 2012 &mdash; June 2015</strong> | Madison, WI</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>Univeristy of Wisconsin PEOPLE Program</h4>
+                  <h6><img src="img/telescope.png" alt="Telescope" style="max-width:30px; height:auto"> Science Teacher | <strong>Summers:  June 2014 &mdash; July 2015</strong> | Madison, Wisconsin</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>Monona Grove and Madison Metropolitan School Districts</h4>
+                  <h6><img src="img/telescope.png" alt="Telescope" style="max-width:30px; height:auto"> Substitute Teacher| <strong>October 2011 &mdash; June 2012</strong> | Madison, Wisconsin</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>Smithsonian National Air and Space Museum</h4>
+                  <h6><img src="img/telescope.png" alt="Telescope" style="max-width:30px; height:auto"> Astronomy Educator| <strong>May 2009 &mdash; August 2011</strong> | Washington, DC</h6>
+                  <p>Description</p>
+              </div>
+
+              <div class="col-md-12">
+                  <h4>University of Wisconsin Foundation</h4>
+                  <h6> Telefund Student Caller| <strong>June 2007 &mdash; April 2009</strong> | Madison, WI</h6>
+                  <p>Description</p>
+              </div>
+          </div>
+
+          <div class="row resume-section">
+              <h2 class="resume-title" style="color:#33cc33;"><strong>Education</strong></h2>
+              <div class="col-md-12">
+                  <h3>University of Wisconsin &mdash; Madison</h3>
+                  <h5><img src="img/GIS.png" alt="GIS" style="max-width:25px; height:auto"> Certificate in GIS </h5>
+                  <h6><strong>September 2015 &mdash; Present</strong></h6>
+              </div>
+
+              <div class="col-md-12">
+                  <h3>University of Wisconsin &mdash; Madison</h3>
+                  <h5><img src="img/telescope.png" alt="Telescope" style="max-width:30px; height:auto"> B.S. in Secondary Education: Earth/Space Science </h5>
+                  <h6><strong>September 2004 &mdash; December 2008</strong></h6>
+              </div>
+
+        </div>
+
+        <div class="row resume-section">
+            <h2 class="resume-title" style="color:#33cc33;"><strong>Volunteer Experience</strong></h2>
+            <div class="col-md-12">
+                <h4>Goodman Community Center Teen Center</h4>
+                <h6>Mentor/Tutor</h6>
+                <h6><strong>September 2008 &mdash; April 2009</strong></h6>
+            </div>
+
+            <div class="col-md-12">
+                <h4>James Madison Memorial High School</h4>
+                <h6>Volunteer Varsity Girls Track and Field Assistant Coach</h6>
+                <h6><strong>February 2008 &mdash; May 2007</strong></h6>
+            </div>
+
+        </div>
+    </div>
 
   </body>
 
