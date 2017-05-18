@@ -71,7 +71,7 @@ a:visited {
 
 a:hover {
     color: #33cc33 !important;
-    text-decoration: underline !important;
+    /*text-decoration: underline !important;*/
 }
 
 .header-title {
