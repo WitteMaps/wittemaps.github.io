@@ -8,10 +8,6 @@ p, h3, h4, h5, h6 {
     color: #333333;
 }
 
-body {
-    padding-top: 80px;
-}
-
 h1 {
     font-size: 50px !important;
     text-decoration: none;
@@ -46,13 +42,13 @@ p {
 }
 
 .jumbotron{
-	padding-top: 0px;
+	padding-top: 20px;
 	padding-bottom: 20px;
     margin-bottom: 0px;
 }
 
 .footer {
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -63,15 +59,20 @@ a {
 
 a:link {
     color: #6633cc;
+    text-decoration: none;
 }
 
 a:visited {
     color: #6633cc;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #33cc33 !important;
-    /*text-decoration: underline !important;*/
+    color: #33cc33;
+}
+
+.header{
+    padding-top: 55px;
 }
 
 .header-title {
@@ -110,15 +111,37 @@ a:hover {
     background-color: #33cc33;
 }
 
-.portfolio-thumbnail {
-    padding-bottom: 40px;
+.portfolio-thumbnail{
+	background-color: white;
+	border-width: 0px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .1);
 }
 
-.img-hover img {
+.overlay {
+    position: relative;
+}
+.overlay img {
+    display: block;
+}
+.overlay .description {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    padding: 5px 0px;
+    color: #ffffff;
+    background: #666666;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+}
+.overlay:hover .description {
     opacity: 1;
-    width: 300px; height: auto;
-}
-
-.img-hover img:hover {
-    opacity: .35;
 }
