@@ -59,7 +59,7 @@ a {
 
 a:link {
     color: #6633cc;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 a:visited {
@@ -130,6 +130,8 @@ a:hover {
 .job{
     line-height: 2;
 }
+
+
 
 .overlay {
     position: relative;
